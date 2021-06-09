@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 128px;
+    color: #fff;
+    opacity: 50%;
+}
+
+.rain {
+    height: 100vh;
+    background-image: url(./Image/Rain.png);
+    background-size: cover;
+    animation: rain 3s linear infinite;
+}
+
+@keyframes rain {
+    0% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
